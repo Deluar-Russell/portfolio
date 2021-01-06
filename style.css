@@ -1,6 +1,38 @@
+body{
+    text-align: justify;
+    margin: 0;
+}
 h1{
     font-size: 30px;
 }
 .name{
     color: orange;
+}
+.width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.width img{width: 70%;
+}
+.song{
+    text-decoration: none;
+    padding: 6px;
+    background-color:rebeccapurple;
+    margin: 3px;
+    color: wheat;
+    border-radius: 7px;
+    border: rebeccapurple;
+  
+}
+.top-banner{
+background-image: url(images/top-banner.png);   
+}
+section{height: 500px;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
