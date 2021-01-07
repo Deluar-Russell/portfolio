@@ -41,11 +41,28 @@ section{height: 500px;
 .Experiences{
     width: 40%;
     float: left;
-    margin-left: 2%;
-    padding-left: 2%;
-    box-shadow: 10px 10px 40px rebeccapurple;
+    margin-left: 4%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    
+    border-radius: 10px;
+    height: 325px;
+  }
+
+#bg-image{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
-.pad{
-    padding-right: 4%;
-    text-align: justify;
+.exp{
+    margin-left: 55px;
 }
+#exp-img-left{
+    border-left: 8px solid;
+    border-image: linear-gradient (180deg red blue);
+    border-image-slice: 1;
+}
+#exp-img-right{
+    border-left: 8px solid;
+    };
