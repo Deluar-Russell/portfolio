@@ -59,10 +59,10 @@ section{height: 500px;
     margin-left: 55px;
 }
 #exp-img-left{
-    border-left: 8px solid;
+    border-left: 8px solid gray;
     border-image: linear-gradient (180deg red blue);
     border-image-slice: 1;
 }
 #exp-img-right{
-    border-left: 8px solid;
+    border-left: 8px solid blue;
     };
